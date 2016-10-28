@@ -1,5 +1,5 @@
 html { height: 100% }
-body { height: 95% }
+body { height: 95%; background-color:black }
 
 #content { height: 100%; width: 100% }
 
@@ -44,6 +44,7 @@ body { height: 95% }
 
 .numDisplay {
   border: 2px solid black;
+  color: purple;
   padding: 5px;
   flex: 1 1 30%;
   justify-content: center;
@@ -88,13 +89,13 @@ body { height: 95% }
 }
 
 .needsreview {
-  background-color: red;
-  color: white;
+  background-color: black;
+  color: red;
 }
 
 .correct {
-  background-color: green;
-  color: white;
+  background-color: black;
+  color: red;
 }
 
 .chromeOnly {

@@ -86,14 +86,9 @@ let nothing = Unchecked.defaultof<ReactElement<obj>>
 module Sounds =
 
     let cheers = [
-        Audio.Create("1_person_cheering-Jett_Rifkin-1851518140.mp3")
-        Audio.Create("Cheer1.m4a")
-        Audio.Create("Cheer2.m4a")
-        Audio.Create("Cheer4.m4a")
-        Audio.Create("Cheer5.m4a")
-        Audio.Create("Cheer6.m4a")
+        Audio.Create("Demon_Your_Soul_is_mine-BlueMann-1903732045.mp3")
         ]
-    let bomb = Audio.Create("Grenade Explosion-SoundBible.com-2100581469.mp3")
+    let bomb = Audio.Create("Laser Blasts-SoundBible.com-108608437.mp3")
     let SoundSetting = PersistentSetting("Sound", On)
 open Sounds
 
